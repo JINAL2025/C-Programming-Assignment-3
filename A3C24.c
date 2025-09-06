@@ -2,7 +2,7 @@
 void main()
 {
 int n, r_n=0, k;
-printf("Enter an integer : ");
+printf("Enter a positive integer : ");
 scanf("%d", &n);
 while(n>0)
 {
