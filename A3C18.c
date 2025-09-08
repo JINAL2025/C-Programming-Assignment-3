@@ -1,8 +1,8 @@
 #include <stdio.h>
 void main()
 {
-int i, boys=0, girls=0, g[i];
-for (i=1;i<=50;i++)
+int i, boys=0, girls=0, g[50];
+for (i=0;i<50;i++)
 {
 printf("Enter gender for student %d (1 for Female, 2 for Male): ", i);
 scanf(" %d", &g[i]); 
