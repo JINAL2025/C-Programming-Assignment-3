@@ -18,7 +18,7 @@ girls++;
 }
 else
 {
-printf("Invalid input. Please enter M or F.\n");
+printf("Invalid input. Please enter 1 or 2.\n");
 i--;
 }
 }
