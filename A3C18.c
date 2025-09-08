@@ -1,20 +1,18 @@
 #include <stdio.h>
 void main()
 {
-  int t, i, boys=0, girls=0, g;
-printf("Enter the total number of students in the class : ");
-scanf("%d", &t);
-for (i=1;i<=t;i++)
+int i, boys=0, girls=0, g[i];
+for (i=1;i<=50;i++)
 {
 printf("Enter gender for student %d (1 for Female, 2 for Male): ", i);
-scanf(" %d", &g); 
-if(g==2)
+scanf(" %d", &g[i]); 
+if(g[i]==2)
 {
 boys++;
 }
 else 
 {
-if(g==1)
+if(g[i]==1)
 {
 girls++;
 }
