@@ -10,13 +10,13 @@ scanf("%d", &a[i]);
 for(i=0;i<200;i++)
 {
 if(a[i]>0)
-{ p++ }
+{ p++; }
 else
 {
 if(a[i]<0)
-{ n++ }
+{ n++; }
 else
-{ z++ }
+{ z++; }
 }
 }
 printf("The number of positive & negative numbers and zeroes among the given numbers are %d, %d and %d respectively", p, n, z);
