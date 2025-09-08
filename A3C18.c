@@ -25,5 +25,5 @@ i--;
 }
 }
 }
-printf("\nThe number of boys and of girls in the class is %d and %d respectively", boys, girls;
+printf("\nThe number of boys and of girls in the class is %d and %d respectively", boys, girls);
 }
